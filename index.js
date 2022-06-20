@@ -89,7 +89,7 @@ console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`U
       await dupe(auth);
       await sleep(4000);
       await dupe(auth);
-      await sleep(10000);
+      await sleep(12000);
       console.log(`Delay Fixed`)
 
     }
