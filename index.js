@@ -61,8 +61,7 @@ function infor() {
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.white(`Country : ${country}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
 }
 
-function time() {console.log(chalk.bgBlack(`[ ${moment().format('HH:mm:ss')} ]`)
-}
+function time() {console.log(chalk.bgBlack(`[ ${moment().format('HH:mm:ss')} ]`),)}
 
       infor();
       await dupe(auth);
