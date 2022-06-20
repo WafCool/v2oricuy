@@ -27,7 +27,7 @@ const dupe = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`Trophy And Crown Hack Safe! [ReEdit]
+  console.log(`Trophy And Crown Hack Brutal! [ReEdit]
 By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey
 `);
 
@@ -56,22 +56,25 @@ console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`U
      
       await dupe(auth);
       infor();
-      await sleep(3500);
+      await sleep(3700);
       await dupe(auth);
       infor();
-      await sleep(3500);
+      await sleep(3700);
       await dupe(auth);
       infor();
-      await sleep(3500);
+      await sleep(3700);
       await dupe(auth);
       infor();
-      await sleep(4500);
+      await sleep(3700);
       await dupe(auth);
       infor();
       console.log('');
-      console.log(chalk.bgGrey(`[ Fixed Delay ]`),);
+      console.log(chalk.bgGrey(`[ Fixing Delay ]`),);
       console.log('');
-      await sleep(14720);
+      await sleep(12000);
+      console.log(chalk.bgGrey('[ Fixed Delay ]'),);
+      console.log('');
+      await sleep(1000);
      
     }
      else if (result == 'BANNED') {
