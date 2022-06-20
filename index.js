@@ -78,36 +78,7 @@ function time() {console.log(chalk.bgBlack(`[ ${moment().format('HH:mm:ss')} ]`)
       await sleep(4000);
       await dupe(auth);
       time();
-      await sleep(4000);
-      await dupe(auth);
-      time();
-      await sleep(4000);
-      await dupe(auth);
-      time();
-      await sleep(8000);
-      console.log('')
-      infor();
-      await dupe(auth);
-      time();
-      await sleep(4000);
-      await dupe(auth);
-      time();
-      await sleep(4000);
-      await dupe(auth);
-      time();
-      await sleep(4000);
-      await dupe(auth);
-      time();
-      await sleep(4000);
-      await dupe(auth);
-      time();
-      await sleep(4000);
-      await dupe(auth);
-      time();
-      await sleep(4000);
-      await dupe(auth);
-      time();
-      await sleep(10000);
+      await sleep(10000)
       console.log(`Delay Fixed`)
 
     }
