@@ -80,7 +80,6 @@ Information about username, country, etc. Will only show up once after 14 crown.
       await sleep(4000);
       await dupe(auth);
       success();
-      await sleep(4000);
       console.log('');
       console.log(chalk.bgGrey(`[ Fixing Delay ]`),);
       console.log('');
