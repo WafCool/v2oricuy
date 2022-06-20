@@ -79,4 +79,4 @@ console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`U
   }
 
 
-})();.
+})();
