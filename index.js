@@ -61,35 +61,49 @@ console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`U
 
       infor();
       await dupe(auth);
+      infor();
       await sleep(4000);
       await dupe(auth);
+      infor();
       await sleep(4000);
       await dupe(auth);
+      infor();
       await sleep(4000);
       await dupe(auth);
+      infor();
       await sleep(4000);
       await dupe(auth);
+      infor();
       await sleep(4000);
       await dupe(auth);
+      infor();
       await sleep(4000);
       await dupe(auth);
-      await sleep(8000);
+      infor();
+      await sleep(6000);
       console.log('')
       infor();
       await dupe(auth);
+      infor();
       await sleep(4000);
       await dupe(auth);
+      infor();
       await sleep(4000);
       await dupe(auth);
+      infor();
       await sleep(4000);
       await dupe(auth);
+      infor();
       await sleep(4000);
       await dupe(auth);
+      infor();
       await sleep(4000);
       await dupe(auth);
+      infor();
       await sleep(4000);
       await dupe(auth);
-      await sleep(12000);
+      infor();
+      await sleep(10000);
       console.log(`Delay Fixed`)
 
     }
