@@ -85,7 +85,7 @@ Information about username, country, etc. Will only show up once after 7 crown. 
       console.log('');
       console.log(chalk.bgGrey(`[ Fixing Delay ]`),);
       console.log('');
-      await sleep(7000);
+      await sleep(8000);
       console.log(chalk.bgGrey(`[ Fixed Delay ]`),);
       console.log('');
      
