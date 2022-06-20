@@ -61,7 +61,7 @@ console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`U
 }
 
 function success() {
-console.log(chalk.bgBlack(` [ ${moment().format('HH:mm:ss')}` ]));
+console.log(chalk.bgBlack(` [ ${moment().format('HH:mm:ss')} ]`));
 }
 
       infor();
