@@ -57,24 +57,26 @@ function infor() {
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.white(`Country : ${country}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
 }
 
-function success() {console.log(chalk.bgBlack(`[ ${moment().format('HH:mm:ss')} ]`),)}
+function success() {console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')}]),)}
 
 console.log(`Starting...
-Information about username, country, etc. Will only show up once after 14 crown. `)
-
+Information about username, country, etc. Will only show up once after 7 crown. `)
       infor();
       await dupe(auth);
       success();
-      await sleep(3500);
+      await sleep(4000);
       await dupe(auth);
       success();
       await sleep(3500);
       await dupe(auth);
       success();
-      await sleep(3500);
+      await sleep(4000);
       await dupe(auth);
       success();
       await sleep(3500);
+      await dupe(auth);
+      success();
+      await sleep(4000);
       await dupe(auth);
       success();
       await sleep(3500);
@@ -83,10 +85,9 @@ Information about username, country, etc. Will only show up once after 14 crown.
       console.log('');
       console.log(chalk.bgGrey(`[ Fixing Delay ]`),);
       console.log('');
-      await sleep(9000);
-      console.log(chalk.bgGrey(`[ Delay Fixed ]`),);
+      await sleep(7000);
+      console.log(chalk.bgGrey(`[ Fixed Delay ]`),);
       console.log('');
-      await sleep(1000);
      
     }
      else if (result == 'BANNED') {
