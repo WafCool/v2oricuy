@@ -51,13 +51,13 @@ const result = await dupe(auth);
     }
    else if (result.includes('User')) {
 
+function infor() {
 const data = JSON.parse(result);
 const username = data.User.Username;
 const country = data.User.Country;
 const trophy = data.User.SkillRating;
 const crown = data.User.Crowns;
 
-function infor() {
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.white(`Country : ${country}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
 }
 
@@ -66,19 +66,11 @@ function time() {console.log(chalk.bgBlack(`[ ${moment().format('HH:mm:ss')} ]`)
       infor();
       await dupe(auth);
       time();
-      await sleep(5000);
       await dupe(auth);
       time();
-      await sleep(5000);
       await dupe(auth);
       time();
-      await sleep(5000);
-      await dupe(auth);
-      time();
-      await sleep(5000);
-      await dupe(auth);
-      time();
-      await sleep(10001);
+      await sleep(12001);
       console.log(`Delay Fixed`)
 
     }
