@@ -59,13 +59,13 @@ function infor() {
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.white(`Country : ${country}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
 }
 
+      await sleep(1000);
       await dupe(auth);
       infor();
+      await sleep(4000);
       await dupe(auth);
       infor();
-      await dupe(auth);
-      infor();
-      await sleep(10000);
+      await sleep(3500);
 
     }
      else if (result == 'BANNED') {
