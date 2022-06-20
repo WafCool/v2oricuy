@@ -59,8 +59,7 @@ function infor() {
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.white(`Country : ${country}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
 }
 
-function success() {console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ]
-}
+function success() {console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ],}
 
       await start();
       infor();
