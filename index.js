@@ -8,8 +8,6 @@ function sleep(ms) {
 }
 
 const dupe = (auth) => new Promise((resolve, reject) => {
-const start = (`console.log(`Starting...
-Information about username, country, etc. Will only show up once after 14 crown. `)
 
   fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/3', {
     method: 'GET',
@@ -61,7 +59,8 @@ console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`U
 
 function success() {console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ],}
 
-      await start();
+console.log(`Starting...
+Information about username, country, etc. Will only show up once after 14 crown. `)
       infor();
       await dupe(auth);
       success();
