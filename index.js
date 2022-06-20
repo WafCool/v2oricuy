@@ -61,6 +61,7 @@ function success() {console.log(chalk.bgBlack(`[ ${moment().format('HH:mm:ss')} 
 
 console.log(`Starting...
 Information about username, country, etc. Will only show up once after 14 crown. `)
+
       infor();
       await dupe(auth);
       success();
@@ -80,33 +81,10 @@ Information about username, country, etc. Will only show up once after 14 crown.
       await dupe(auth);
       success();
       await sleep(4000);
-      await dupe(auth);
-      success();
-      await sleep(4000);
-      await dupe(auth);
-      success();
-      await sleep(4000);
-      await dupe(auth);
-      success();
-      await sleep(4000);
-      await dupe(auth);
-      success();
-      await sleep(4000);
-      await dupe(auth);
-      success();
-      await sleep(4000);
-      await dupe(auth);
-      success();
-      await sleep(4000);
-      await dupe(auth);
-      success();
-      await sleep(4000);
-      await dupe(auth);
-      success();
       console.log('');
       console.log(chalk.bgGrey(`[ Fixing Delay ]`),);
       console.log('');
-      await sleep(12000);
+      await sleep(8000);
       console.log(chalk.bgGrey(`[ Delay Fixed ]`),);
       console.log('');
      
