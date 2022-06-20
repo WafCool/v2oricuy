@@ -56,25 +56,48 @@ console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`U
      
       await dupe(auth);
       infor();
-      await sleep(3700);
+      await sleep(4000);
       await dupe(auth);
       infor();
-      await sleep(3700);
+      await sleep(4000);
       await dupe(auth);
       infor();
-      await sleep(3700);
+      await sleep(4000);
       await dupe(auth);
       infor();
-      await sleep(3700);
+      await sleep(4000);
+      await dupe(auth);
+      infor();
+      await sleep(4000);
+      await dupe(auth);
+      infor();
+      await sleep(4000);
+      await dupe(auth);
+      infor();
+      await sleep(4000);
+      await dupe(auth);
+      infor();
+      await sleep(4000);
+      await dupe(auth);
+      infor();
+      await sleep(4000);
+      await dupe(auth);
+      infor();
+      await sleep(4000);
+      await dupe(auth);
+      infor();
+      await sleep(4000);
+      await dupe(auth);
+      infor();
+      await sleep(4000);
       await dupe(auth);
       infor();
       console.log('');
       console.log(chalk.bgGrey(`[ Fixing Delay ]`),);
       console.log('');
-      await sleep(12000);
-      console.log(chalk.bgGrey('[ Fixed Delay ]'),);
+      await sleep(7500);
+      console.log(chalk.bgGrey(`[ Fixed Delay ]`),);
       console.log('');
-      await sleep(1000);
      
     }
      else if (result == 'BANNED') {
