@@ -65,27 +65,28 @@ Information about username, country, etc. Will only show up once after 14 crown.
       infor();
       await dupe(auth);
       success();
-      await sleep(4000);
+      await sleep(3500);
       await dupe(auth);
       success();
-      await sleep(4000);
+      await sleep(3500);
       await dupe(auth);
       success();
-      await sleep(4000);
+      await sleep(3500);
       await dupe(auth);
       success();
-      await sleep(4000);
+      await sleep(3500);
       await dupe(auth);
       success();
-      await sleep(4000);
+      await sleep(3500);
       await dupe(auth);
       success();
       console.log('');
       console.log(chalk.bgGrey(`[ Fixing Delay ]`),);
       console.log('');
-      await sleep(8000);
+      await sleep(9000);
       console.log(chalk.bgGrey(`[ Delay Fixed ]`),);
       console.log('');
+      await sleep(1000);
      
     }
      else if (result == 'BANNED') {
