@@ -47,7 +47,10 @@ By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey`);
 
     }
    else if (result.includes('User')) {
-   
+    
+     console.log(`Starting...
+Information about username, country, etc. Will only show up once after 14 crown. `)
+
 function infor() {
       const data = JSON.parse(result);
       const username = data.User.Username;
@@ -56,38 +59,53 @@ function infor() {
       const crown = data.User.Crowns;
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.white(`Country : ${country}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
 }
-     console.log(`Starting...
-Information about username, country, etc. Will only show up once after 14 crown. `)
-     console.log('')
+
+function success() {
+console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ]
+}
 
       infor();
       await dupe(auth);
+      success();
       await sleep(4000);
       await dupe(auth);
+      success();
       await sleep(4000);
       await dupe(auth);
+      success();
       await sleep(4000);
       await dupe(auth);
+      success();
       await sleep(4000);
       await dupe(auth);
+      success();
       await sleep(4000);
       await dupe(auth);
+      success();
       await sleep(4000);
       await dupe(auth);
+      success();
       await sleep(4000);
       await dupe(auth);
+      success();
       await sleep(4000);
       await dupe(auth);
+      success();
       await sleep(4000);
       await dupe(auth);
+      success();
       await sleep(4000);
       await dupe(auth);
+      success();
       await sleep(4000);
       await dupe(auth);
+      success();
       await sleep(4000);
       await dupe(auth);
+      success();
       await sleep(4000);
       await dupe(auth);
+      success();
       await sleep(4000);
       console.log('');
       console.log(chalk.bgGrey(`[ Fixing Delay ]`),);
