@@ -66,18 +66,22 @@ function time() {console.log(chalk.bgBlack(`[ ${moment().format('HH:mm:ss')} ]`)
       infor();
       await dupe(auth);
       time();
+      await sleep(1500);
       await dupe(auth);
       time();
+      await sleep(1500);
       await dupe(auth);
       time();
-      await sleep(4000);
+      await sleep(1500);
       await dupe(auth);
       time();
+      await sleep(1500);
       await dupe(auth);
       time();
+      await sleep(1500);
       await dupe(auth);
       time();
-      await sleep(12501);
+      await sleep(12551);
       console.log(`Delay Fixed`)
 
     }
