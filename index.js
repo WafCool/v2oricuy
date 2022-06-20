@@ -65,10 +65,6 @@ console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`U
       infor();
       await dupe(auth);
       infor();
-      await dupe(auth);
-      infor();
-      await dupe(auth);
-      infor();
       await sleep(10000);
 
     }
