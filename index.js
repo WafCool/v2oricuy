@@ -8,7 +8,7 @@ function sleep(ms) {
 }
 
 const dupe = (auth) => new Promise((resolve, reject) => {
-const start = console.log(`console.log(`Starting...
+const start = (`console.log(`Starting...
 Information about username, country, etc. Will only show up once after 14 crown. `)
 
   fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/3', {
