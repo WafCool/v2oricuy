@@ -7,13 +7,13 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-const GoStumble = (auth) => new Promise((resolve, reject) => {
+const dupe = (auth) => new Promise((resolve, reject) => {
 
   fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/3', {
     method: 'GET',
     headers: {
       'authorization': auth
-    }F. Fa
+    }
   })
     .then(res => res.text())
     .then(data => {
@@ -27,37 +27,56 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`Trophy And Crown Hack Safe! [FadlanKull ]
-By : ${chalk.bold('Fadlan Ganteng 🤘😎')} - Credit : @dkmpostor & @FadlanKull
-`);
+  console.log(`Trophy And Crown Hack Brutal! [ Recode V2 ]
+By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey`);
+  console.log('');
+  console.log(`This is not VIP, i am just trying my idea and turned out it worked!`);
+  console.log(`Ini bukan VIP, saya cuma ngetest ide saya ternyata berhasil!`);
+  console.log('');
 
-  const auth = rs.question('Tempel Kode auth di sini sayang😘! : ');
+  const auth = rs.question('Enter Authentication Code! : ');
   console.log('');
 
   while (true) {
 
-    const result = await GoStumble(auth);
+const result = await dupe(auth);
+
     if (!result) {
 
       console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Authentication Code Not Valid`));
       break;
 
-    } else if (result.includes('User')) {
+    }
+   else if (result.includes('User')) {
 
-      const data = JSON.parse(result);
-      const username = data.User.Username;
-      const country = data.User.Country;
-      const trophy = data.User.SkillRating;
-      const crown = data.User.Crowns;
+const data = JSON.parse(result);
+const username = data.User.Username;
+const country = data.User.Country;
+const trophy = data.User.SkillRating;
+const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
-      await sleep(1500);
+function infor() {
+console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.white(`Country : ${country}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
+}
 
-    } else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`Akun lu ke band bang, Maaf🥶 !!`));
+      await dupe(auth);
+      infor();
+      await dupe(auth);
+      infor();
+      await dupe(auth);
+      infor();
+      await dupe(auth);
+      infor();
+      await dupe(auth);
+      infor();
+      await sleep(10000);
+
+    }
+     else if (result == 'BANNED') {
+      console.log(chalk.bgRed(`Your Account is Banned!`));
      break;
     }
   }
 
 
-})();
+})();.
