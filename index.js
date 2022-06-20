@@ -103,12 +103,11 @@ Information about username, country, etc. Will only show up once after 14 crown.
       await sleep(4000);
       await dupe(auth);
       success();
-      await sleep(4000);
       console.log('');
       console.log(chalk.bgGrey(`[ Fixing Delay ]`),);
       console.log('');
-      await sleep(10000);
-      console.log(chalk.bgGrey(`[ Fixed Delay ]`),);
+      await sleep(12000);
+      console.log(chalk.bgGrey(`[ Delay Fixed ]`),);
       console.log('');
      
     }
