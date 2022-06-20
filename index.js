@@ -61,13 +61,21 @@ console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`U
 
       infor();
       await dupe(auth);
+      await sleep(4000);
       await dupe(auth);
+      await sleep(4000);
       await dupe(auth);
+      await sleep(4000);
       await dupe(auth);
+      await sleep(4000);
       await dupe(auth);
+      await sleep(4000);
       await dupe(auth);
+      await sleep(4000);
       await dupe(auth);
-      await sleep(12000);
+      await sleep(8000);
+      console.log(`Delay Fixed`)
+      await sleep(1000);
 
     }
      else if (result == 'BANNED') {
