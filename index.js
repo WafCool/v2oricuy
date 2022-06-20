@@ -8,6 +8,8 @@ function sleep(ms) {
 }
 
 const dupe = (auth) => new Promise((resolve, reject) => {
+const start = console.log(`console.log(`Starting...
+Information about username, country, etc. Will only show up once after 14 crown. `)
 
   fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/3', {
     method: 'GET',
@@ -47,10 +49,6 @@ By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey`);
 
     }
    else if (result.includes('User')) {
-    
-     console.log(`Starting...
-Information about username, country, etc. Will only show up once after 14 crown. `);
-     console.log('')
 
 function infor() {
       const data = JSON.parse(result);
@@ -61,9 +59,10 @@ function infor() {
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.white(`Country : ${country}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
 }
 
-function success() {console.log(chalk.bgBlack(` [ ${moment().format('HH:mm:ss')} ]`));
+function success() {console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ]
 }
 
+      await start();
       infor();
       await dupe(auth);
       success();
