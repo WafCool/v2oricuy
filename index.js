@@ -33,8 +33,7 @@ By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey`);
   console.log(`This is not VIP, i am just trying my idea and turned out it worked!`);
   console.log(`Ini bukan VIP, saya cuma ngetest ide saya ternyata berhasil!`);
   console.log('');
-console.log(`Starting...
-Information about username, country, etc. Will only show up once after command dupe done executing. `);
+console.log(`Have problem? report to my discord dm [xDast#8745]`);
 console.log('');
 
   const auth = rs.question('Enter Authentication Code! : ');
@@ -62,7 +61,7 @@ function infor() {
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.white(`Country : ${country}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
 }
 
-function time() {console.log(chalk.bgBlack([ ${moment().format('HH:mm:ss')} ]),)}
+function time() {(`[ ${moment().format('HH:mm:ss')} ]`)}
 
       infor();
       await dupe(auth);
@@ -112,8 +111,7 @@ function time() {console.log(chalk.bgBlack([ ${moment().format('HH:mm:ss')} ]),)
       console.log(`Delay Fixed`)
 
     }
-
-     else if (result == 'BANNED') {
+  else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your Account is Banned!`));
      break;
     }
