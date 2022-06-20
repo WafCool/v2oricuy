@@ -30,10 +30,8 @@ const dupe = (auth) => new Promise((resolve, reject) => {
   console.log(`Trophy And Crown Hack Brutal! [ Recode V2 ]
 By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey`);
   console.log('')
-  console.log('')
   console.log(`This is not VIP, i am just trying my idea and turned out it worked!`)
   console.log(`Ini bukan VIP, saya cuma ngetest ide saya ternyata berhasil!`)
-  console.log('')
   console.log('')
 
   const auth = rs.question('Enter Authentication Code! : ');
@@ -60,6 +58,7 @@ console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`U
 }
      console.log(`Starting...
 Information about username, country, etc. Will only show up once after 14 crown. `)
+     console.log('')
 
       infor();
       await dupe(auth);
