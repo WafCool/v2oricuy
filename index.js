@@ -27,11 +27,11 @@ const dupe = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`Trophy And Crown Hack Brutal! [ Reedit V2 ]
+  console.log(`Trophy And Crown Hack Brutal! [ Recode V2 ]
 By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey`);
-  console.log('');
-  console.log(`This is not VIP, i am just trying my idea and turned out it worked!`);
-  console.log(`Ini bukan VIP, saya cuma ngetest ide saya ternyata berhasil!`);
+  console.log('')
+  console.log(`This is not VIP, i am just trying my idea and turned out it worked!`)
+  console.log(`Ini bukan VIP, saya cuma ngetest ide saya ternyata berhasil!`)
 
   const auth = rs.question('Enter Authentication Code! : ');
   console.log('');
@@ -53,54 +53,28 @@ function infor() {
       const country = data.User.Country;
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
+console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.white(`Country : ${country}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
 }
-     
-      await dupe(auth);
+     console.log(`Starting...
+Information about username, country, etc. Will only show up once after 14 crown. `)
+
       infor();
+      await dupe(auth);
       await sleep(4000);
       await dupe(auth);
-      infor();
       await sleep(4000);
       await dupe(auth);
-      infor();
       await sleep(4000);
       await dupe(auth);
-      infor();
       await sleep(4000);
       await dupe(auth);
-      infor();
       await sleep(4000);
       await dupe(auth);
-      infor();
       await sleep(4000);
-      await dupe(auth);
-      infor();
-      await sleep(4000);
-      await dupe(auth);
-      infor();
-      await sleep(4000);
-      await dupe(auth);
-      infor();
-      await sleep(4000);
-      await dupe(auth);
-      infor();
-      await sleep(4000);
-      await dupe(auth);
-      infor();
-      await sleep(4000);
-      await dupe(auth);
-      infor();
-      await sleep(4000);
-      await dupe(auth);
-      infor();
-      await sleep(4000);
-      await dupe(auth);
-      infor();
       console.log('');
       console.log(chalk.bgGrey(`[ Fixing Delay ]`),);
       console.log('');
-      await sleep(8000);
+      await sleep(3000);
       console.log(chalk.bgGrey(`[ Fixed Delay ]`),);
       console.log('');
      
