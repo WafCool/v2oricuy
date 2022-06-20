@@ -50,6 +50,7 @@ By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey`);
     
      console.log(`Starting...
 Information about username, country, etc. Will only show up once after 14 crown. `);
+     console.log('')
 
 function infor() {
       const data = JSON.parse(result);
@@ -60,8 +61,7 @@ function infor() {
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.white(`Country : ${country}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
 }
 
-function success() {
-console.log(chalk.bgBlack(` [ ${moment().format('HH:mm:ss')} ]`));
+function success() { console.log(chalk.bgBlack(` [ ${moment().format('HH:mm:ss')} ]`));
 }
 
       infor();
