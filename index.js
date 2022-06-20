@@ -107,7 +107,7 @@ Information about username, country, etc. Will only show up once after 14 crown.
       console.log('');
       console.log(chalk.bgGrey(`[ Fixing Delay ]`),);
       console.log('');
-      await sleep(8000);
+      await sleep(10000);
       console.log(chalk.bgGrey(`[ Fixed Delay ]`),);
       console.log('');
      
