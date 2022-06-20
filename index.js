@@ -53,17 +53,26 @@ function infor() {
       const crown = data.User.Crowns;
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
 }
-
+     
       await dupe(auth);
       infor();
-      await sleep(5000);
+      await sleep(3500);
+      await dupe(auth);
+      infor();
+      await sleep(3500);
+      await dupe(auth);
+      infor();
+      await sleep(3500);
+      await dupe(auth);
+      infor();
+      await sleep(4500);
       await dupe(auth);
       infor();
       console.log('');
       console.log(chalk.bgGrey(`[ Fixed Delay ]`),);
       console.log('');
-      await sleep(6000);
-
+      await sleep(14720);
+     
     }
      else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your Account is Banned!`));
