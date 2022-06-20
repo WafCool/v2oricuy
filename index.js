@@ -7,13 +7,13 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-const dupe = (auth) => new Promise((resolve, reject) => {
+const GoStumble = (auth) => new Promise((resolve, reject) => {
 
   fetch('http://kitkabackend.eastus.cloudapp.azure.com:5010/round/finishv2/3', {
     method: 'GET',
     headers: {
       'authorization': auth
-    }
+    }F. Fa
   })
     .then(res => res.text())
     .then(data => {
@@ -27,72 +27,34 @@ const dupe = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`Trophy And Crown Hack Brutal! [ Recode V2 ]
-By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey`);
-  console.log('');
-  console.log(`This is not VIP, i am just trying my idea and turned out it worked!`);
-  console.log(`Ini bukan VIP, saya cuma ngetest ide saya ternyata berhasil!`);
-  console.log('');
+  console.log(`Trophy And Crown Hack Safe! [FadlanKull ]
+By : ${chalk.bold('Fadlan Ganteng 🤘😎')} - Credit : @dkmpostor & @FadlanKull
+`);
 
-  const auth = rs.question('Enter Authentication Code! : ');
+  const auth = rs.question('Tempel Kode auth di sini sayang😘! : ');
   console.log('');
 
   while (true) {
 
-    const result = await dupe(auth);
+    const result = await GoStumble(auth);
     if (!result) {
 
       console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Authentication Code Not Valid`));
       break;
 
-    }
-   else if (result.includes('User')) {
+    } else if (result.includes('User')) {
 
-function infor() {
       const data = JSON.parse(result);
       const username = data.User.Username;
       const country = data.User.Country;
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.white(`Country : ${country}`)} | ${chalk.blue(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
-}
 
-function success() {console.log(chalk.bgBlack(`[ ${moment().format('HH:mm:ss')} ]`),)}
+console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
+      await sleep(1500);
 
-console.log(`Starting...
-Information about username, country, etc. Will only show up once after 7 crown. `)
-      infor();
-      await dupe(auth);
-      success();
-      await dupe(auth);
-      success();
-      await dupe(auth);
-      success();
-      await dupe(auth);
-      success();
-      await dupe(auth);
-      success();
-      await sleep(10000);
-      await dupe(auth);
-      success();
-      await dupe(auth);
-      success();
-      await dupe(auth);
-      success();
-      await dupe(auth);
-      success();
-      await dupe(auth);
-      success();
-      console.log('');
-      console.log(chalk.bgGrey(`[ Fixing Delay ]`),);
-      console.log('');
-      await sleep(12500);
-      console.log(chalk.bgGrey(`[ Fixed Delay ]`),);
-      console.log('');
-     
-    }
-     else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`Your Account is Banned!`));
+    } else if (result == 'BANNED') {
+      console.log(chalk.bgRed(`Akun lu ke band bang, Maaf🥶 !!`));
      break;
     }
   }
