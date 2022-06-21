@@ -70,7 +70,7 @@ function time() {console.log(chalk.bgBlack(`[ ${moment().format('HH:mm:ss')} ]`)
       await dupe(auth);
       await sleep(3000);
       await dupe(auth);
-      await sleep(9000);
+      await sleep(7000);
       await dupe(auth);
       await sleep(3500);
       await dupe(auth);
