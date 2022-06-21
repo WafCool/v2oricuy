@@ -27,17 +27,17 @@ const dupe = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`Trophy And Crown Duplication Semi Brutal! [Recode V2]
+  console.log(`/  Trophy And Crown Duplication Semi Brutal! [Recode V2]  \
 By : ${chalk.bold('xDast#8745 | Instagram : @xdast0')} - Credit : @dkmpostor & @Eskey`);
   console.log('');
-  console.log(`>  Free Script  <`);
-  console.log(`>  Kalo mau recode, silahkan pake sc lama saya, jadilah kreatif!`);
-  console.log(`>  If you want to recode, use my old script, be creative!`)
+  console.log(`/  Free Script  \`);
+  console.log(`/  Kalo mau recode, silahkan pake sc lama saya, jadilah kreatif!  \`);
+  console.log(`/  If you want to recode, use my old script, be creative!  \`)
   console.log('');
-console.log(`>  Have problem? Report to my discord > xDast#8745 <`);
+console.log(`/  Have problem? Report to my discord > xDast#8745 < \`);
 console.log('');
 
-  const auth = rs.question('>  Enter Authentication Code! : ');
+  const auth = rs.question('/  Enter Authentication Code! : ');
   console.log('');
 
   while (true) {
@@ -45,7 +45,7 @@ console.log('');
 const result = await dupe(auth);
 
     if (!result) {
-      console.log(`>  wrong auth code detected, if this was a spam then your auth is expired! (do CTRL + C to close script!)`);
+      console.log(`/  wrong auth code detected, if this was a spam then your auth is expired! (do CTRL + C to close script!)`);
       console.log('');
 
     }
@@ -57,14 +57,23 @@ const country = data.User.Country;
 const trophy = data.User.SkillRating;
 const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r>  Date : ${moment().format('YYYY MMMM Do')} | Time : ${moment().format('HH:mm:ss')}`));
-console.log(chalk.bgCyan(`\r>  ${chalk.black(`In-Game Name : ${username}`)}`));
-console.log(chalk.bgGray(`\r>  ${chalk.black(`Country : ${country}`)}`));
-console.log(chalk.bgYellow(`\r>  ${chalk.black(`Trophy : ${trophy}`)}`));
-console.log(chalk.bgRed(`\r>  ${chalk.black(`Crown : ${crown}`)}`));
+console.log(chalk.bgBlack(`\r/  Date : ${moment().format('YYYY MMMM Do')} | Time : ${moment().format('HH:mm:ss')} \`));
+console.log(chalk.bgCyan(`\r/  ${chalk.black(`In-Game Name : ${username}`)} \`));
+console.log(chalk.bgGray(`\r/  ${chalk.black(`Country : ${country}`)} \`));
+console.log(chalk.bgYellow(`\r/  ${chalk.black(`Trophy : ${trophy}`)} \`));
+console.log(chalk.bgRed(`\r/  ${chalk.black(`Crown : ${crown}`)} \`));
 
       console.log('');
       await dupe(auth);
+      console.log(`/ + | ${moment().format('HH:mm:ss')} \`);
+      await sleep(2500);
+      await dupe(auth);
+      console.log(`[ + | ${moment().format('HH:mm:ss')} \`);
+      await sleep(2500);
+      await dupe(auth);
+      console.log(`[ + | ${moment().format('HH:mm:ss')} ]`);
+      await sleep(2500);
+      await dupe(auth);
       console.log(`[ + | ${moment().format('HH:mm:ss')} ]`);
       await sleep(2500);
       await dupe(auth);
@@ -72,14 +81,7 @@ console.log(chalk.bgRed(`\r>  ${chalk.black(`Crown : ${crown}`)}`));
       await sleep(2500);
       await dupe(auth);
       console.log(`[ + | ${moment().format('HH:mm:ss')} ]`);
-      await dupe(auth);
-      console.log(`[ + | ${moment().format('HH:mm:ss')} ]`);
       await sleep(2500);
-      await dupe(auth);
-      console.log(`[ + | ${moment().format('HH:mm:ss')} ]`);
-      await sleep(2500);
-      await dupe(auth);
-      console.log(`[ + | ${moment().format('HH:mm:ss')} ]`);
       console.log('');
       console.log(`some trophy may not be duped into the account.`);
       console.log(`12 seconds delay starting...`);
