@@ -25,6 +25,8 @@
 // Credits
 Thanks to Eskeyz
 Thanks to dkmpostor
+Thanks to @Natasya
+Thanks to Arnazsys
 Thanks to user
 
 // My social media
