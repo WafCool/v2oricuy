@@ -72,7 +72,6 @@ console.log(chalk.bgRed(`\r${chalk.black(`Crown : ${crown}`)}`));
       await sleep(2500);
       await dupe(auth);
       console.log(`[ Success Duplicating | ${moment().format('HH:mm:ss')} ]`);
-      await sleep(2500);
       console.log('');
       console.log(`some trophy may not be duped into the account.`);
       console.log(`10 seconds delay starting...`);
