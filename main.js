@@ -58,10 +58,10 @@ const trophy = data.User.SkillRating;
 const crown = data.User.Crowns;
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ]`));
-console.log(chalk.bgCyan(`\r${chalk.gray(`In-Game Name : ${username}`)}`));
-console.log(chalk.bgGray(`\r${chalk.gray(`Country : ${country}`)}`));
-console.log(chalk.bgYellow(`\r${chalk.gray(`Trophy : ${trophy}`)}`));
-console.log(chalk.bgRed(`\r${chalk.gray(`Crown : ${crown}`)}`));
+console.log(chalk.bgCyan(`\r${chalk.black(`In-Game Name : ${username}`)}`));
+console.log(chalk.bgGray(`\r${chalk.black(`Country : ${country}`)}`));
+console.log(chalk.bgYellow(`\r${chalk.black(`Trophy : ${trophy}`)}`));
+console.log(chalk.bgRed(`\r${chalk.black(`Crown : ${crown}`)}`));
 
       console.log('');
       await dupe(auth);
@@ -75,9 +75,13 @@ console.log(chalk.bgRed(`\r${chalk.gray(`Crown : ${crown}`)}`));
       await sleep(2500);
       await dupe(auth);
       console.log(`[ Success Duplicating | ${moment().format('HH:mm:ss')} ]`);
-      console.log(`some trophy may be not duped into the account.`);
+      console.log('');
+      console.log(`some trophy may not be duped into the account.`);
       console.log(`10 seconds delay starting...`);
       await sleep(10000);
+      console.log('');
+      console.log(`Delay finished.`);
+      await sleep(1500);
       console.log('');
 
     }
