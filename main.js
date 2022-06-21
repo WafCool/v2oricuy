@@ -2,6 +2,7 @@ const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
 const rs = require('readline-sync');
+conat spawner = require('childprocess').spawn;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -66,25 +67,26 @@ console.log(chalk.bgRed(`\r / ${chalk.black(`Crown : ${crown}`)}`));
       console.log('');
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3050);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3050);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3050);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3050);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3050);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
+      await sleep(500)
       console.log('');
       console.log(`/ some trophy may not be duped into the account.`);
-      console.log(`/ 10,5 seconds delay starting...`);
-      await sleep(10500);
+      console.log(`/ 10 seconds delay starting...`);
+      await sleep(10000);
       console.log(`/ delay finished.`);
       await sleep(500);
       console.log('');
@@ -95,7 +97,5 @@ console.log(chalk.bgRed(`\r / ${chalk.black(`Crown : ${crown}`)}`));
       console.log(chalk.bgRed(`Your Account is Banned!`));
      break;
     }
-  }
-
-
+  
 })();
