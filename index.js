@@ -27,13 +27,14 @@ const dupe = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`Trophy And Crown Hack Brutal! [ Recode V2 ]
-By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey`);
+  console.log(`Trophy And Crown Duplication Semi Brutal ! [ Recode V2 ]
+By : ${chalk.bold('xDast#8745 | Instagram : @xdast0')} - Credit : @dkmpostor & @Eskey`);
   console.log('');
-  console.log(`This is not VIP, i am just trying my idea and turned out it worked!`);
-  console.log(`Ini bukan VIP, saya cuma ngetest ide saya ternyata berhasil!`);
+  console.log(`Free Script`);
+  console.log(`Kalo mau recode, silahkan pake sc lama saya, jadilah kreatif`);
+  console.log(`if you want to recode, use my old script, be creative!`)
   console.log('');
-console.log(`Have problem? report to my discord dm [xDast#8745]`);
+console.log(`Have problem? report to my discord dm [ xDast#8745 ]`);
 console.log('');
 
   const auth = rs.question('Enter Authentication Code! : ');
@@ -44,9 +45,7 @@ console.log('');
 const result = await dupe(auth);
 
     if (!result) {
-
-      console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Authentication Code Not Valid`));
-      console.log(`if u put wrong auth code, please ctrl+c`);
+      console.log(`wrong auth code detected, if this was a spam then your auth is expired! (do CTRL + C to close script!)`);
       console.log('');
 
     }
@@ -67,13 +66,13 @@ function time() {console.log(chalk.bgBlack(`[ ${moment().format('HH:mm:ss')} ]`)
       infor();
       console.log('');
       await dupe(auth);
-      await sleep(1650);
+      await sleep(2500);
       await dupe(auth);
-      await sleep(1650);
+      await sleep(2500);
       await dupe(auth);
-      await sleep(1650);
+      await sleep(2500);
       await dupe(auth);
-      await sleep(11250);
+      await sleep(10500);
       console.log('');
 
     }
