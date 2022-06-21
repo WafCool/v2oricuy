@@ -57,7 +57,7 @@ const country = data.User.Country;
 const trophy = data.User.SkillRating;
 const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\rDate : ${moment().format('YYYY MMMM Do')} Time : ${moment().format('HH:mm:ss')}`));
+console.log(chalk.bgBlack(`\rDate : ${moment().format('YYYY MMMM Do')} | Time : ${moment().format('HH:mm:ss')}`));
 console.log(chalk.bgCyan(`\r${chalk.black(`In-Game Name : ${username}`)}`));
 console.log(chalk.bgGray(`\r${chalk.black(`Country : ${country}`)}`));
 console.log(chalk.bgYellow(`\r${chalk.black(`Trophy : ${trophy}`)}`));
@@ -73,8 +73,6 @@ console.log(chalk.bgRed(`\r${chalk.black(`Crown : ${crown}`)}`));
       await dupe(auth);
       console.log(`[ Success Duplicating | ${moment().format('HH:mm:ss')} ]`);
       await sleep(2500);
-      await dupe(auth);
-      console.log(`[ Success Duplicating | ${moment().format('HH:mm:ss')} ]`);
       console.log('');
       console.log(`some trophy may not be duped into the account.`);
       console.log(`10 seconds delay starting...`);
