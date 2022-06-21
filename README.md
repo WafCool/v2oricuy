@@ -23,6 +23,8 @@
   [ https://pastebin.com/LSGmWmG2 ]
 4. Get auth code and insert it in the script
 5. Enjoy duplication!
+6. Command to re run script quickly
+  [ cd brut && clear && node main ]
 
 [ Close script using CTRL + C ]
 
