@@ -1,7 +1,7 @@
 # Sc Duplication Trophy and Crown Version 2!
 
 // Whats New?
-- Script dupe per minute ability has reached its maximum.
+- Duplication function without too high delay per minute has reached its maximum.
 
 // Minus from the previous version?
 - Script only show 1 time information for sometime
@@ -10,6 +10,10 @@
 - This will be my final Version of Stumble Guys Script, I will not update the script anymore.
 (Unless there is bug)
 
+- Feel free to recode my script in
+ [ https://github.com/vaengg/hexpalingganteng ]
+
+- Don't sell the script, Fuck you who stole my recoded script and sell it.
 
 // How to use?
 
