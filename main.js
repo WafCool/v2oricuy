@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const moment = require('moment');
 const chalk = require('chalk');
 const rs = require('readline-sync');
-conat spawner = require('childprocess').spawn;
+const spawner = require('childprocess').spawn;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
