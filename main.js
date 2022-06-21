@@ -57,11 +57,11 @@ const country = data.User.Country;
 const trophy = data.User.SkillRating;
 const crown = data.User.Crowns;
 
-console.log(`\r[ ${moment().format('HH:mm:ss')} ]`);
-console.log(`\r${chalk.green(`In-Game Name : ${username}`)}`);
-console.log(`\r${chalk.white(`Country : ${country}`)}`);
-console.log(`\r${chalk.azure(`Trophy : ${trophy}`)}`);
-console.log(`\r${chalk.cyan(`Crown : ${crown}`)}`);
+console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ]`));
+console.log(chalk.bgWhite(`\r${chalk.green(`In-Game Name : ${username}`)}`));
+console.log(chalk.bgWhite(`\r${chalk.bold(`Country : ${country}`)}`));
+console.log(chalk.bgYellow(`\r${chalk.bold(`Trophy : ${trophy}`)}`));
+console.log(chalk.bgRed(`\r${chalk.bold(`Crown : ${crown}`)}`));
 
       console.log('');
       await dupe(auth);
