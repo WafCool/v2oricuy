@@ -97,5 +97,6 @@ console.log(chalk.bgRed(`\r / ${chalk.black(`Crown : ${crown}`)}`));
       console.log(chalk.bgRed(`Your Account is Banned!`));
      break;
     }
+   }
   
 })();
