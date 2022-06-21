@@ -2,6 +2,7 @@
 
 // Whats New?
 - Duplication function without too high delay per minute has reached its maximum.
+- Safer from the older script ( Maybe )
 
 // Minus from the previous version?
 - Script only show 1 time information for sometime
@@ -37,7 +38,7 @@
 
 // My social media
 Telegram : https://t.me/liblbs
-Instagram : @xdast0
+Discord : xDast#8745
 
 (No need to follow, i dont even do anything in my social medias)
 
