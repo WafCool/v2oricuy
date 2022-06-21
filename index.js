@@ -60,22 +60,23 @@ const crown = data.User.Crowns;
 console.log(`\r[ ${moment().format('HH:mm:ss')} ]`);
 console.log(`\r${chalk.green(`In-Game Name : ${username}`)}`);
 console.log(`\r${chalk.white(`Country : ${country}`)}`);
-console.log(`\r${chalk.yellow(`Trophy : ${trophy}`)}`);
-console.log(`\r${chalk.red(`Crown : ${crown}`)}`);
+console.log(`\r${chalk.azure(`Trophy : ${trophy}`)}`);
+console.log(`\r${chalk.cyan(`Crown : ${crown}`)}`);
 
       console.log('');
       await dupe(auth);
       console.log(`[ Success Duplicating | ${moment().format('HH:mm:ss')} ]`);
-      await sleep(3500);
+      await sleep(2500);
       await dupe(auth);
       console.log(`[ Success Duplicating | ${moment().format('HH:mm:ss')} ]`);
-      await sleep(3500);
+      await sleep(2500);
       await dupe(auth);
       console.log(`[ Success Duplicating | ${moment().format('HH:mm:ss')} ]`);
-      await sleep(3500);
+      await sleep(2500);
       await dupe(auth);
       console.log(`[ Success Duplicating | ${moment().format('HH:mm:ss')} ]`);
       console.log(`some trophy may be not duped into the account.`);
+      console.log(`10 seconds delay starting...`);
       await sleep(10000);
       console.log('');
 
