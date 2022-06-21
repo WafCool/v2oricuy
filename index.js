@@ -27,7 +27,7 @@ const dupe = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`Trophy And Crown Duplication Semi Brutal! [ Recode V2 ]
+  console.log(`Trophy And Crown Duplication Semi Brutal! [Recode V2]
 By : ${chalk.bold('xDast#8745 | Instagram : @xdast0')} - Credit : @dkmpostor & @Eskey`);
   console.log('');
   console.log(`Free Script`);
