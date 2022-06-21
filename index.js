@@ -46,7 +46,7 @@ const result = await dupe(auth);
     if (!result) {
 
       console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Authentication Code Not Valid`));
-      break;
+      console.log(`if u put wrong auth code, please ctrl+c`);
 
     }
    else if (result.includes('User')) {
