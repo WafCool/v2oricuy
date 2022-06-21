@@ -27,11 +27,11 @@ const dupe = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(`Trophy And Crown Duplication Semi Brutal ! [ Recode V2 ]
+  console.log(`Trophy And Crown Duplication Semi Brutal! [ Recode V2 ]
 By : ${chalk.bold('xDast#8745 | Instagram : @xdast0')} - Credit : @dkmpostor & @Eskey`);
   console.log('');
   console.log(`Free Script`);
-  console.log(`Kalo mau recode, silahkan pake sc lama saya, jadilah kreatif`);
+  console.log(`Kalo mau recode, silahkan pake sc lama saya, jadilah kreatif!`);
   console.log(`if you want to recode, use my old script, be creative!`)
   console.log('');
 console.log(`Have problem? report to my discord dm [ xDast#8745 ]`);
