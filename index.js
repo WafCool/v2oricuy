@@ -66,17 +66,10 @@ function time() {console.log(chalk.bgBlack(`[ ${moment().format('HH:mm:ss')} ]`)
       infor();
       console.log('');
       await dupe(auth);
-      await sleep(3000);
       await dupe(auth);
-      await sleep(3000);
       await dupe(auth);
-      await sleep(7000);
       await dupe(auth);
-      await sleep(3500);
-      await dupe(auth);
-      await sleep(3500);
-      await dupe(auth);
-      await sleep(8000);
+      await sleep(11000);
       console.log('');
 
     }
