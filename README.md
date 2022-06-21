@@ -1,4 +1,4 @@
-# Sc Duplication Trophy and Crown Version 2!
+# Duplication Trophy and Crown Script Version 2!
 
 // Whats New?
 - Duplication function without too high delay per minute has reached its maximum.
