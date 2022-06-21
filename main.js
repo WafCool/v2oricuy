@@ -101,7 +101,7 @@ console.log(chalk.bgRed(`\r / ${chalk.black(`Crown : ${crown}`)}`));
       console.log('');
       console.log(`/ some trophy may not be duped into the account.`);
       console.log(`/ 8seconds delay starting...`);
-      await sleep(7650);
+      await sleep(7750);
       console.log(`/ delay finished.`);
       await sleep(550);
       console.log('');
