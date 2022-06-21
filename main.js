@@ -57,7 +57,7 @@ const country = data.User.Country;
 const trophy = data.User.SkillRating;
 const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r[ ${moment().format('YYYY MMMM Do')} ]  [ ${moment().format('HH : mm : ss')} ]`));
+console.log(chalk.bgBlack(`\rDate : ${moment().format('YYYY MMMM Do')} Time : ${moment().format('HH:mm:ss')}`));
 console.log(chalk.bgCyan(`\r${chalk.black(`In-Game Name : ${username}`)}`));
 console.log(chalk.bgGray(`\r${chalk.black(`Country : ${country}`)}`));
 console.log(chalk.bgYellow(`\r${chalk.black(`Trophy : ${trophy}`)}`));
