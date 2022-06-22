@@ -32,9 +32,8 @@
 // Credits
 - Thanks to Eskeyz
 - Thanks to dkmpostor
-- Thanks to @Natasya
-- Thanks to Arnazsys
-- Thanks to user
+- Thanks to Khfxj [ For showing how to encrypt ]
+- Thanks to @Natasya [ For sharing ideas ]
 
 // My social media
 - Telegram : https://t.me/liblbs
