@@ -37,8 +37,8 @@
 - Thanks to user
 
 // My social media
-Telegram : https://t.me/liblbs
-Discord : xDast#8745
+- Telegram : https://t.me/liblbs
+- Discord : xDast#8745
 
 (No need to follow, i dont even do anything in my social medias)
 
