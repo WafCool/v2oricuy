@@ -42,7 +42,7 @@ console.log('');
   console.log('');
 
   while (true) {
-
+console.clear()
 const result = await dupe(auth);
 
     if (!result) {
@@ -58,61 +58,52 @@ const country = data.User.Country;
 const trophy = data.User.SkillRating;
 const crown = data.User.Crowns;
 
-console.log(`\r / Date : ${moment().format('YYYY MMMM Do')} | Time : ${moment().format('HH:mm:ss')}`.white);
+console.log(`\r / Date : ${moment().format('YYYY MMMM Do')} | Time : ${moment().format('HH:mm:ss')}`.grey);
 console.log(`\r / In-Game Name : ${username}`.rainbow);
-console.log(`\r / Country : ${country}`.red);
+console.log(`\r / Country : ${country}`.grey);
 console.log(`\r / Trophy : ${trophy}`.rainbow);
 console.log(`\r / Crown : ${crown}`.rainbow);
 
       console.log('');
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
-      await dupe(auth);
-      console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
-      await dupe(auth);
-      console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
-      await dupe(auth);
-      console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3750);
+      await sleep(3500);
       console.log('');
       await sleep(500);
       console.log(`/ some trophy may not be duped into the account.`.grey);
       console.log(`/ 10 seconds delay starting...`.grey);
-      await sleep(10500);
-      console.log(`/ delay finished.`);
+      await sleep(10000);
+      console.log(`/ delay finished.`.grey);
       await sleep(500);
       console.log('');
 
