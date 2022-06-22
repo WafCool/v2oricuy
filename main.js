@@ -2,7 +2,6 @@ const fetch = require('node-fetch');
 const moment = require('moment');
 const colour = require('colour');
 const rs = require('readline-sync');
-const spawner = require('child_process').spawn;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -97,6 +96,15 @@ console.log(`\r / Crown : ${crown}`.rainbow);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
       await sleep(3500);
+      await dupe(auth);
+      console.log(`/ + | ${moment().format('HH:mm:ss')}`);
+      await sleep(3500);
+      await dupe(auth);
+      console.log(`/ + | ${moment().format('HH:mm:ss')}`);
+      await sleep(3500);
+      await dupe(auth);
+      console.log(`/ + | ${moment().format('HH:mm:ss')}`);
+      await sleep(2500);
       console.log('');
       await sleep(500);
       console.log(`/ some trophy may not be duped into the account.`.grey);
