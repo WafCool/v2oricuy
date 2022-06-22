@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 const moment = require('moment');
-const chalk = require('chalk');
+const colour = require('colour');
 const rs = require('readline-sync');
 const spawner = require('child_process').spawn;
 
@@ -29,16 +29,16 @@ const dupe = (auth) => new Promise((resolve, reject) => {
 (async () => {
 
   console.log(`/ Trophy And Crown Duplication Semi Brutal! [Recode V2]
-/ By : ${chalk.bold('> xDast#8745 | Instagram : @xdast0 <')} - Credit : @dkmpostor & @Eskey`);
+/ By : > xDast#8745 | Instagram : @xdast0 < - Credit : @dkmpostor & @Eskey`.bold.blue);
   console.log('');
-  console.log(`/ Free Script`);
-  console.log(`/ Kalo mau recode, silahkan gunakan sc lama saya, jadilah kreatif!`);
-  console.log(`/ If you want to recode, feel free to use my old script, be creative!`)
+  console.log(`/ Free Script`.bold.blue);
+  console.log(`/ Kalo mau recode, silahkan gunakan sc lama saya, jadilah kreatif!`.bold.blue);
+  console.log(`/ If you want to recode, feel free to use my old script, be creative!`.bold.blue)
   console.log('');
-console.log(`/  Have problem? Report to my discord > xDast#8745 <`);
+console.log(`/  Have problem? Report to my discord > xDast#8745 <`.bold.blue);
 console.log('');
 
-  const auth = rs.question('/ Enter Authentication Code! : ');
+  const auth = rs.question('/ Enter Authentication Code! : '.bold.red);
   console.log('');
 
   while (true) {
@@ -46,7 +46,7 @@ console.log('');
 const result = await dupe(auth);
 
     if (!result) {
-      console.log(`/ wrong auth code detected, if this was a spam then your auth is expired! (do CTRL + C to close script!)`);
+      console.log(`/ wrong auth code detected, if this was a spam then your auth is expired! (do CTRL + C to close script!)`.bold.red);
       console.log('');
 
     }
@@ -58,70 +58,68 @@ const country = data.User.Country;
 const trophy = data.User.SkillRating;
 const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r / Date : ${moment().format('YYYY MMMM Do')} | Time : ${moment().format('HH:mm:ss')}`));
-console.log(chalk.bgCyan(`\r / ${chalk.black(`In-Game Name : ${username}`)}`));
-console.log(chalk.bgGray(`\r / ${chalk.black(`Country : ${country}`)}`));
-console.log(chalk.bgYellow(`\r / ${chalk.black(`Trophy : ${trophy}`)}`));
-console.log(chalk.bgRed(`\r / ${chalk.black(`Crown : ${crown}`)}`));
+console.log(`\r / Date : ${moment().format('YYYY MMMM Do')} | Time : ${moment().format('HH:mm:ss')}`.grey);
+console.log(`\r / In-Game Name : ${username}`.rainbow);
+console.log(`\r / Country : ${country}`.grey);
+console.log(`\r / Trophy : ${trophy}`.rainbow);
+console.log(`\r / Crown : ${crown}`.rainbow);
 
       console.log('');
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3000);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3000);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3000);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3000);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3000);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3000);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3000);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3000);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3000);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3000);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3000);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3000);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3000);
+      await sleep(3500);
       await dupe(auth);
       console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(3000);
-      await dupe(auth);
-      console.log(`/ + | ${moment().format('HH:mm:ss')}`);
-      await sleep(555);
+      await sleep(3500);
       console.log('');
-      console.log(`/ some trophy may not be duped into the account.`);
-      console.log(`/ 8seconds delay starting...`);
-      await sleep(7750);
+      await sleep(500);
+      console.log(`/ some trophy may not be duped into the account.`.grey);
+      console.log(`/ 10 seconds delay starting...`.grey);
+      await sleep(10000);
       console.log(`/ delay finished.`);
-      await sleep(555);
+      await sleep(500);
       console.log('');
 
     }
     
   else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`Your Account is Banned!`));
+      console.log(`Your Account is Banned!`.bold.red);
      break;
     }
    }
