@@ -2,7 +2,7 @@
 
 // Whats New?
 - Duplication function without too high delay per minute has reached its maximum.
-- Safer from the older script ( Maybe )
+- Safer from the older script (Maybe)
 
 // Minus from the previous version?
 - Script only show 1 time information for sometime
