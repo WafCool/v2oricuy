@@ -58,9 +58,9 @@ const country = data.User.Country;
 const trophy = data.User.SkillRating;
 const crown = data.User.Crowns;
 
-console.log(`\r / Date : ${moment().format('YYYY MMMM Do')} | Time : ${moment().format('HH:mm:ss')}`.grey);
+console.log(`\r / Date : ${moment().format('YYYY MMMM Do')} | Time : ${moment().format('HH:mm:ss')}`.white);
 console.log(`\r / In-Game Name : ${username}`.rainbow);
-console.log(`\r / Country : ${country}`.grey);
+console.log(`\r / Country : ${country}`.red);
 console.log(`\r / Trophy : ${trophy}`.rainbow);
 console.log(`\r / Crown : ${crown}`.rainbow);
 
