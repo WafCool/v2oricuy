@@ -40,6 +40,6 @@
 - Telegram : https://t.me/liblbs
 - Discord : xDast#8745
 
-(No need to follow, i dont even do anything in my social medias)
+(I barely do anything in my social medias)
 
 End.
