@@ -42,7 +42,6 @@ console.log('');
   console.log('');
 
   while (true) {
-console.clear()
 const result = await dupe(auth);
 
     if (!result) {
